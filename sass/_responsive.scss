@@ -1,0 +1,795 @@
+@media(max-width: 1200px){
+.main-header{
+.header-back{
+position: absolute;
+right: -540px;
+top: 400px;
+}}
+.header-blocks{
+flex-direction: column;
+.header-leftBlock{
+.header-title{
+font-size: 80px;
+margin-top: -60px;
+}
+.header-description{
+margin-top: 55px;
+font-size: 20px;
+max-width: 485px !important;
+line-height: 32px;
+}}}
+.statistics-blocks{
+flex-direction: column-reverse;
+.statistics-leftBlock{
+padding-top: 60px;
+padding-bottom: 81px;
+.statistics-title{
+max-width: 443px;  
+}}
+.statistics-rightBlock{
+.item{
+width: 100%;
+}}}
+
+.rating-block{
+right: 48px;
+}
+.chooseWay-back{
+bottom: 10px;
+left: -250px;
+}
+.chooseWay-title{
+padding-top:95px;
+font-size: 80px;
+line-height: 70px;
+}
+.chooseWay-subtitle{
+font-size: 24px;
+}
+.chooseWay-icon{
+width: 92px;
+height: 92px;
+top: -46px;
+}
+.citizenIcon, .residentIcon{
+width:45px;
+height: 45px;
+}
+.chooseWay-block-title {
+font-size: 36px;
+padding-top: 59px;
+}
+.chooseWay-block-subtitle{
+font-size: 24px;
+padding-top: 12px;
+}
+.chooseWay-item {
+font-size: 14px;
+line-height: 30px
+}
+.chooseWay-block-line {
+margin-top: 6px;
+}
+.chooseWay-item {
+padding-right: 20px;
+padding-top: 10px;
+}
+.chooseWay-block-subtitle {
+.chooseWay-lastPrice{
+font-size: 14px;
+} 
+.chooseWay-currentPrice{
+font-size: 24px;
+padding-left: 11px;
+padding-right: 11px; }
+}
+.chooseWay-date {
+font-size: 14px;
+}
+.chooseWay-icon{
+width: 110px;
+height: 110px;
+top: -60px;
+}
+.citizenIcon, .residentIcon{
+width: 40px;
+height: 40px;
+}
+
+.chooseWay-button {
+padding-top: 68px;
+padding-bottom: 78px;
+}
+.citizen-block{
+margin-left:10px;
+margin-right:0px;
+}
+.rezident-block{
+margin-right:10px;
+margin-left: 0px;
+}
+.footer-links{
+.footer-link{
+padding-left: 28px;
+}}
+}
+
+@media(max-width:1024px){
+.header-blocks{
+flex-direction: column;
+.header-leftBlock{
+.header-title{
+font-size: 80px;
+margin-top: -60px;
+}
+.header-description{
+margin-top: 55px;
+font-size: 20px;
+max-width: 485px !important;
+line-height: 32px;
+}
+.header-line{
+width: 273px;
+height: 8px; 
+}}
+.header-rightBlock{
+.form-container, .form-wrapper{
+margin: 0 auto;
+}}}
+.form-container-logIn, .form-wrapper-logIn{
+margin: 0 auto;
+
+.header-rightBlock{
+.form-container-verification, .form-wrapper-verification{
+margin: 0 auto !important;
+}}
+}
+.statistics-blocks{
+flex-direction: column-reverse;
+.statistics-leftBlock{
+padding-top: 61px;
+padding-bottom: 81px;
+margin-top: 0px;
+.statistics-title{
+max-width: 443px;   
+}
+.statistics-description{
+max-width: 551px;
+}}
+.statistics-rightBlock{
+.item-number{
+font-weight: bold;
+}}}
+.chooseWay-icon{
+width: 100px;
+height: 100px;
+top: -50px;
+}
+.citizenIcon, .residentIcon{
+width: 40px;
+height: 40px;
+}
+.footer-links{
+padding-top: 17px;
+text-align: right;
+
+.footer-link{
+padding-right: 0px;    
+padding-left: 20px;
+}
+}
+.footer-card{
+padding-top: 32px;
+text-align: right;
+}
+}
+
+@media(max-width: 991px){
+.rating-block{
+right: 48px;
+}   
+.footer-links{
+padding-top: 17px;
+text-align: left;
+.footer-link{
+padding-right: 20px;    
+padding-left: 0px;
+}
+}
+.footer-card{
+padding-top: 32px;
+text-align: left;
+}
+}
+
+@media(max-width:768px){
+.header-blocks{
+flex-direction: column;
+.header-leftBlock{
+.header-title{
+font-size: 65px;
+margin-top: -60px;
+}
+.header-description{
+margin-top: 55px;
+font-size: 20px;
+max-width: 485px !important;
+line-height: 32px;
+}}
+.header-rightBlock{
+margin-top: 70px;
+.form-wrapper{
+margin: 0 auto;
+}
+.form-container{
+margin: 0 auto;
+}}}
+.header-scroll{
+margin-bottom: 50px;
+}
+.statistics-rightBlock {
+padding-top: 72px;
+padding-left: 0px;
+padding-right: 0px;
+.item{
+.item-title{
+font-size: 12px;
+}
+.item-number{
+font-size: 38px;   
+}
+.item-subtitle{
+font-size:14px;
+}
+.elections-day, .elections-hour, .elections-minute, .elections-second {
+margin-right: 5px;
+}}}
+.chooseWay-blocks{
+.citizen-block{
+margin-top: 0px;
+}}
+.chooseWay-back {
+bottom: 170px;
+}
+.chooseWay-title{
+padding-top:95px;
+font-size: 60px;
+line-height: 70px;
+}
+.chooseWay-subtitle{
+font-size: 20px;
+padding-top: 10px;
+}
+.chooseWay-icon{
+width: 92px;
+height: 92px;
+top: -46px;
+}
+.citizenIcon, .residentIcon{
+width: 45px;
+height: 45px;
+}
+.chooseWay-block-title {
+font-size: 26px;
+padding-top: 60px;
+}
+.chooseWay-block-subtitle{
+font-size: 22px;
+padding-top: 10px;
+}
+.chooseWay-item {
+font-size: 18px;
+line-height: 35px
+}
+.chooseWay-block-line {
+margin-top: 6px;
+}
+.chooseWay-item {
+padding-right: 20px;
+padding-top: 10px;
+font-size: 14px;
+}
+.chooseWay-block-subtitle {
+.chooseWay-lastPrice{
+font-size: 14px;
+} 
+.chooseWay-currentPrice{
+font-size: 24px;
+padding-left: 11px;
+padding-right: 11px; }
+}
+.chooseWay-date {
+font-size: 14px;
+}
+.chooseWay-button {
+padding-top: 68px;
+padding-bottom: 78px;
+}
+.rezident-block{
+margin-right: 10px;
+margin-left: 0px;
+}
+.citizen-block{
+margin-left: 10px;
+margin-right:0px;
+margin-top: 112px;
+}
+.footer-links{
+display:flex;
+flex-direction: column;
+.footer-link{
+padding-right: 20px;
+padding-left: 0px;}
+}
+.footer-card{
+text-align: left;
+}
+}
+@media(max-width:767px){
+.chooseWay-blocks{
+.citizen-block{
+margin-top: 112px;
+}}
+.chooseWay-back {
+bottom: 1600px;
+}
+}
+@media(max-width:690px){
+.main-header{
+.header-back{
+position: absolute;
+right: -930px;
+top: 200px;}
+} 
+.header-blocks{
+flex-direction: column;
+.header-leftBlock{
+.header-title{
+font-size: 55px;
+margin-top: -60px;
+}
+.header-description{
+margin-top: 55px;
+font-size: 20px;
+max-width: 485px !important;
+line-height: 32px;
+}}}
+
+.chooseWay-icon{
+width: 110px;
+height: 110px;
+top: -60px;
+}
+.chooseWay-back {
+bottom: 1600px;
+}
+.citizenIcon, .residentIcon{
+width: 50px;
+height: 50px;
+}
+.rezident-block{
+margin-right: 0px;
+margin-left: 0px;
+}
+.citizen-block{
+margin-left: 0px;
+margin-right:0px;
+margin-top: 112px;
+}
+
+.footer-title{
+padding-top: 26px;
+}
+.footer-links{
+padding-top: 17px;
+text-align: left;
+flex-direction: column;
+.footer-link{
+padding-right: 30px;
+padding-left: 0px;}
+}
+.footer-card{
+padding-top: 49px;
+text-align: left;
+}
+.footer-rights{
+padding-top: 12px;
+padding-bottom: 14px;
+font-size: 14px;;
+}
+}
+
+@media(max-width:576px){
+.header-blocks{
+flex-direction: column;
+.header-leftBlock{
+.header-title{
+font-size: 50px;
+}
+.header-description{
+margin-top: 50px;
+font-size: 20px;
+max-width: 485px !important;
+line-height: 32px;
+}}
+.header-rightBlock{
+margin-bottom: 270px;
+.form-wrapper, .form-container{
+width: 80%;
+height: 650px;
+}
+.header-rightBlock{
+margin: 0 auto;
+// width: 80%;
+}
+.form-signIn{
+padding-bottom: 20px;}
+.signIn-button{
+padding: 0px;
+width: 50%;}
+input, select, .community-text, .submit-button, 
+.form-terms, .signIn-button, 
+#form-signIn, .form-name, .register-question, .signIn-button{
+width: 90%;
+}}}
+.header-scroll{
+display: none;    
+}
+.statistics-rightBlock{
+padding-top: 72px;
+padding-left: 16px !important;   
+padding-right: 16px !important;   
+.statistics-row1, .statistics-row2, .statistics-row3{
+flex-direction: column;
+border-top: none;
+border-bottom: none;
+}
+.item{
+width: 315px;
+height: 168px;
+border-top: 1px solid #DDDBDE;
+border-bottom: 1px solid #DDDBDE;
+}
+.item-one, .item-two, .item-three, .item-four, .item-five, .item-six {
+padding-left: 0px !important;
+border-left: none;
+}}
+#mapid{
+height: 1300px;
+}
+.rating-block{
+right: 20px;
+}
+.chooseWay-blocks{
+margin-top: 100px;
+}
+.chooseWay-back {
+bottom: 1600px;
+}
+.chooseWay-title{
+padding-top: 50px;
+font-size: 55px;
+line-height: 70px;
+}
+.chooseWay-subtitle{
+font-size: 20px;
+padding-top: 10px;
+}
+.chooseWay-icon{
+width: 100px;
+height: 100px;
+top: -50px;
+}
+.citizenIcon, .residentIcon{
+width: px;
+height: 40px;
+}
+.chooseWay-block-title {
+font-size: 40px;
+padding-top: 70px;
+}
+.chooseWay-block-subtitle{
+font-size: 22px;
+padding-top: 15px;
+}
+.chooseWay-item {
+font-size: 18px;
+line-height: 30px
+}
+.chooseWay-block-line {
+margin-top: 6px;
+}
+}
+@media(max-width: 500px){
+.form-container-logIn, .form-wrapper-logIn{
+width: 80%;
+}
+.form-container-verification, .form-wrapper-verification{
+width: 80%;
+}
+.register-button, .logIn-button{
+line-height: 16px;
+font-size: 14px;
+}
+}
+
+@media(max-width:460px){
+.rating-block{
+right: 20px;
+width: 90%;
+}
+.register-button{
+line-height: 15px;
+font-size: 14px;
+}
+}
+
+@media(max-width:430px){
+.header-blocks{
+flex-direction: column;
+.header-leftBlock{
+.header-title{
+font-size: 40px;
+}
+.header-description{
+margin-top: 50px;
+font-size: 17px;
+max-width: 485px !important;
+line-height: 32px;
+}}}
+.register-question{
+font-size: 12px;
+}
+.signIn-button{
+padding: 0px;
+font-size: 10px;
+line-height: 0px;
+}
+#form-signIn{
+padding-bottom: 20px;
+}
+.ratingItem{
+.ratingItem-title{
+line-height: 20px;
+}
+.rating-number{
+padding-right: 20px;
+}
+.rating-img{
+padding-right: 15px;
+}
+}
+#mapid{
+height: 1350px;
+}
+
+.chooseWay-back {
+bottom: 1790px;
+}
+.chooseWay-title{
+padding-top: 50px;
+font-size: 45px;
+line-height: 70px;
+}
+.chooseWay-subtitle{
+font-size: 20px;
+padding-top: 10px;
+}
+.chooseWay-icon{
+width: 100px;
+height: 100px;
+top: -50px;
+}
+.citizenIcon, .residentIcon{
+width:40px;
+height: 40px;
+}
+.chooseWay-block-title {
+font-size: 32px;
+padding-top: 70px;
+}
+.chooseWay-block-subtitle{
+font-size: 17px;
+padding-top: 12px;
+}
+.chooseWay-item {
+font-size: 15px;
+line-height: 30px
+}
+.chooseWay-block-line {
+margin-top: 6px;
+}
+.chooseWay-button{
+padding-top: 65px;
+padding-bottom: 88px;
+text-align: center;
+}
+.signIn-button{
+font-size: 22px;
+padding: 1px 25px;
+font-size: 20px;
+}
+}
+@media(max-width: 400px){
+#mapid{
+height: 1450px;
+}
+}
+@media(max-width: 395px){
+#mapid{
+height: 1700px;
+}
+}
+
+@media(max-width:375px){
+.header-navigation{
+padding-top: 24px !important;
+}
+.header-blocks{
+flex-direction: column;
+.header-leftBlock{
+.header-title{
+font-size: 40px;
+}
+.header-description{
+margin-top: 26px;
+font-size: 14px;
+max-width: 485px !important;
+line-height: 20px;
+}
+.header-line{
+height: 4px;
+width: 130px;
+}}}
+.statistics-rightBlock{
+padding-top: 32px;   
+}
+
+@media(max-width: 395px){
+#mapid{
+height: 1800px;
+}
+}
+
+.chooseWay-blocks{
+margin-top:80px;    
+}
+.chooseWay-back {
+bottom: 1790px;
+}
+.chooseWay-title{
+padding-top:30px;
+font-size: 40px;
+line-height: 70px;
+}
+.chooseWay-subtitle{
+font-size: 18px;
+padding-top: 0px;
+}
+.chooseWay-icon{
+width: 92px;
+height: 92px;
+top: -41px;
+}
+.citizenIcon, .residentIcon{
+width:39px;
+height: 44px;
+}
+.chooseWay-block-title {
+font-size: 36px;
+padding-top: 70px;
+}
+.chooseWay-block-subtitle{
+font-size: 24px;
+padding-top: 10px;
+}
+.chooseWay-item {
+font-size: 14px;
+line-height: 30px
+}
+.chooseWay-block-line {
+margin-top: 6px;
+}
+.chooseWay-item {
+padding-right: 20px;
+padding-top: 10px;
+}
+.chooseWay-block-subtitle {
+.chooseWay-lastPrice{
+font-size: 14px;
+} 
+.chooseWay-currentPrice{
+font-size: 24px;
+padding-left: 11px;
+padding-right: 11px; }
+}
+.chooseWay-date {
+font-size: 14px;
+}
+.chooseWay-button {
+padding-top: 34px;
+padding-bottom: 46px;
+}
+.rezident-block{
+margin-right: 0px;
+margin-left: 0px;
+}
+.citizen-block{
+margin-left: 0px;
+margin-right:0px;
+margin-top: 112px;
+}
+.footer-title{
+font-size: 25px;
+}
+}
+
+@media(max-width:360px){
+.header-leftBlock{
+.header-title{
+font-size: 30px !important;
+}
+#mapid{
+height: 1900px;
+}
+}
+.chooseWay-title{
+padding-top:30px;
+font-size: 35px;
+line-height: 70px;
+}
+.chooseWay-blocks{
+margin-top: 65px;
+}
+.chooseWay-subtitle{
+font-size: 15px;
+padding-top: 0px;
+}
+.chooseWay-icon{
+width: 80px;
+height: 80px;
+top: -40px;
+}
+.chooseWay-block-title{
+font-size: 30px;
+}
+.chooseWay-block-subtitle{
+font-size: 17px;
+padding-top: 5px;
+}
+.citizen-block{
+margin-top: 90px;
+}
+.chooseWay-block-subtitle{
+.chooseWay-lastPrice{
+font-size: 12px;
+} 
+.chooseWay-currentPrice{
+font-size: 15px;
+padding-left: 8px;
+padding-right: 8px;
+}  
+.chooseWay-date{
+font-size: 12px;
+}
+}}
+@media(max-width: 350px){
+#mapid{
+height: 2000px;
+}
+}
+
+@media(max-width:325px){
+.header-blocks{
+.header-rightBlock{
+margin-bottom: 350px;
+}}
+#mapid{
+height: 2000px;
+}
+form{
+.register-form-group{
+.form-name{
+font-size:20px;
+}}}
+}

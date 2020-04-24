@@ -1,0 +1,125 @@
+// File: _statistics.scss
+
+.statistics-section{
+background: #ffffff;
+}
+.statistics-blocks{
+font-family: $inter-font;
+font-style: normal;
+font-weight: normal;
+.statistics-leftBlock{
+padding-top: 155px;  
+padding-bottom: 201px; 
+padding-right: 84px;
+.statistics-title{
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+}
+.statistics-line{
+margin-top: 20px;
+background: $line-background;
+width: 148px;
+height: 3px;
+}
+.statistics-description{
+padding-top: 25px;
+font-size: 18px;
+line-height: 32px;
+color: #000000;
+}
+
+.arrow-right{
+margin-left: 30px;
+}}}
+.statistics-rightBlock {
+padding-top: 112px;
+font-family: $inter-font;
+font-style: normal;
+font-weight: 500;   
+.statistics-row1, .statistics-row2, .statistics-row3{
+display: flex;
+border-bottom: 1px solid #DDDBDE;
+border-top: 1px solid #DDDBDE;
+}
+.item{
+width: 315px;
+height: 168px;
+}
+.item-two, .item-four, .item-six{
+padding-left: 30px;
+border-left: 1px solid #DDDBDE;
+}
+.number-plus{
+font-size: 18px;
+color: #51CE6C;
+}
+.item-number{
+padding-top: 26px;
+font-weight: bold;
+font-size: 48px;
+color: #3D3D3D;
+}
+.item-subtitle{
+font-size: 16px;
+color: #3D3D3D;
+}
+.item-title{
+padding-top: 15px;
+font-size: 14px;
+color: #757575;
+}
+.date-number, .elections-number{
+margin-top: -32px;
+}
+.elections-day, .elections-hour, .elections-minute, .elections-second {
+margin-right: 17px;
+}
+}
+
+.statistics-description-more{
+display: none;
+font-size: 18px;
+line-height: 32px;
+color: #000000;
+}
+.statistics-more{
+outline: none !important;
+border: none;
+padding: 0px;
+text-decoration: none;
+background-color: inherit;
+font-weight: 600;
+font-size: 18px;
+line-height: 38px;
+color: #65CDC9 !important;
+border-bottom: 1.5px dashed #65CDC9;
+text-decoration: none;
+transition: all, ease, 0.01ms;
+}
+.statistics-more:hover{
+text-decoration: none;
+color: #65CDC9 !important;
+}
+.statistics-less{
+border: none;
+outline: none !important;
+padding: 0px;
+text-decoration: none;
+background-color: inherit;
+font-weight: 600;
+font-size: 18px;
+line-height: 38px;
+color: #65CDC9;
+border-bottom: 1.5px dashed #65CDC9;
+text-decoration: none;
+transition: all, ease, 0.01ms;
+display: none;
+}
+.statistics-less:hover{
+text-decoration: none;
+color: #65CDC9 !important;
+}
+.arrowDown-icon{
+border: none !important;
+}
