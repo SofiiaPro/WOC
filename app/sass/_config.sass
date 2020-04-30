@@ -1,0 +1,37 @@
+// USER VARIABLES SECTION
+
+$accent: orange // Accent Color
+// $fontsize: 16px // Body Font Size
+// $textcolor: #333 // Text Color
+// $system: -apple-system, BlinkMacSystemFont, Arial, sans-serif // System Font Family
+$inter: Inter, sans-serif // Roboto Font Family
+
+$line-background: linear-gradient(90deg, #63cfca 0%, #c52d51 102.37%)
+$inter-font: "Inter-Regular", sans-serif
+
+// Bootstrap compatible gutter variable => $gutter
+$grid-gutter-width: 20px
+$gutter: $grid-gutter-width
+
+// IMPORT SECTION
+
+@import "node_modules/bootstrap/scss/bootstrap-reboot.scss" // Bootstrap Reboot collection
+@import "node_modules/bootstrap/scss/mixins/_breakpoints.scss" // Bootstrap Breakpoints mixin
+@import "node_modules/bootstrap/scss/bootstrap-grid.scss" // Optional Bootstrap Grid
+
+// FONTS LOAD SECTION
+
+@mixin font($fname, $fstyle, $fweight, $furl)
+  @font-face
+    font-family: $fname
+    font-style: $fstyle
+    font-weight: $fweight
+    // font-display: swap // Uncomment to initially display system fonts
+    src: local($fname), url($furl) format("otf")
+
+@include font("Inter-Regular", normal, 400, "../fonts/src/Inter-Regular.eot")
+@include font("Inter-Regular", normal, 400, "../fonts/src/Inter-Regular.otf")
+@include font("Inter-Regular", normal, 400, "../fonts/src/Inter-Regular.svg")
+@include font("Inter-Regular", normal, 400, "../fonts/src/Inter-Regular.ttf")
+@include font("Inter-Regular", normal, 400, "../fonts/src/Inter-Regular.woff")
+@include font("Inter-Regular", normal, 400, "../fonts/src/Inter-Regular.woff2")
